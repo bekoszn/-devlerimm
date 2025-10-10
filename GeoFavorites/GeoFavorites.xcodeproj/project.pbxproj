@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		06ECFADD2E99A9F0007929EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06ECFAC72E99A9EE007929EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06ECFACE2E99A9EE007929EA;
+			remoteInfo = GeoFavorites;
+		};
+		06ECFAE72E99A9F0007929EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06ECFAC72E99A9EE007929EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06ECFACE2E99A9EE007929EA;
+			remoteInfo = GeoFavorites;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06ECFACF2E99A9EE007929EA /* GeoFavorites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFavorites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06ECFADC2E99A9F0007929EA /* GeoFavoritesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoFavoritesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06ECFAE62E99A9F0007929EA /* GeoFavoritesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoFavoritesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		06ECFB142E99ABDB007929EA /* Exceptions for "GeoFavorites" folder in "GeoFavorites" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 06ECFACE2E99A9EE007929EA /* GeoFavorites */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		06ECFAD12E99A9EE007929EA /* GeoFavorites */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				06ECFB142E99ABDB007929EA /* Exceptions for "GeoFavorites" folder in "GeoFavorites" target */,
+			);
+			path = GeoFavorites;
+			sourceTree = "<group>";
+		};
+		06ECFADF2E99A9F0007929EA /* GeoFavoritesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GeoFavoritesTests;
+			sourceTree = "<group>";
+		};
+		06ECFAE92E99A9F0007929EA /* GeoFavoritesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GeoFavoritesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06ECFACC2E99A9EE007929EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ECFAD92E99A9F0007929EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ECFAE32E99A9F0007929EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06ECFAC62E99A9EE007929EA = {
+			isa = PBXGroup;
+			children = (
+				06ECFAD12E99A9EE007929EA /* GeoFavorites */,
+				06ECFADF2E99A9F0007929EA /* GeoFavoritesTests */,
+				06ECFAE92E99A9F0007929EA /* GeoFavoritesUITests */,
+				06ECFAD02E99A9EE007929EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06ECFAD02E99A9EE007929EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06ECFACF2E99A9EE007929EA /* GeoFavorites.app */,
+				06ECFADC2E99A9F0007929EA /* GeoFavoritesTests.xctest */,
+				06ECFAE62E99A9F0007929EA /* GeoFavoritesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06ECFACE2E99A9EE007929EA /* GeoFavorites */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06ECFAF02E99A9F0007929EA /* Build configuration list for PBXNativeTarget "GeoFavorites" */;
+			buildPhases = (
+				06ECFACB2E99A9EE007929EA /* Sources */,
+				06ECFACC2E99A9EE007929EA /* Frameworks */,
+				06ECFACD2E99A9EE007929EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				06ECFAD12E99A9EE007929EA /* GeoFavorites */,
+			);
+			name = GeoFavorites;
+			packageProductDependencies = (
+			);
+			productName = GeoFavorites;
+			productReference = 06ECFACF2E99A9EE007929EA /* GeoFavorites.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06ECFADB2E99A9F0007929EA /* GeoFavoritesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06ECFAF32E99A9F0007929EA /* Build configuration list for PBXNativeTarget "GeoFavoritesTests" */;
+			buildPhases = (
+				06ECFAD82E99A9F0007929EA /* Sources */,
+				06ECFAD92E99A9F0007929EA /* Frameworks */,
+				06ECFADA2E99A9F0007929EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06ECFADE2E99A9F0007929EA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				06ECFADF2E99A9F0007929EA /* GeoFavoritesTests */,
+			);
+			name = GeoFavoritesTests;
+			packageProductDependencies = (
+			);
+			productName = GeoFavoritesTests;
+			productReference = 06ECFADC2E99A9F0007929EA /* GeoFavoritesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06ECFAE52E99A9F0007929EA /* GeoFavoritesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06ECFAF62E99A9F0007929EA /* Build configuration list for PBXNativeTarget "GeoFavoritesUITests" */;
+			buildPhases = (
+				06ECFAE22E99A9F0007929EA /* Sources */,
+				06ECFAE32E99A9F0007929EA /* Frameworks */,
+				06ECFAE42E99A9F0007929EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06ECFAE82E99A9F0007929EA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				06ECFAE92E99A9F0007929EA /* GeoFavoritesUITests */,
+			);
+			name = GeoFavoritesUITests;
+			packageProductDependencies = (
+			);
+			productName = GeoFavoritesUITests;
+			productReference = 06ECFAE62E99A9F0007929EA /* GeoFavoritesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06ECFAC72E99A9EE007929EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					06ECFACE2E99A9EE007929EA = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					06ECFADB2E99A9F0007929EA = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 06ECFACE2E99A9EE007929EA;
+					};
+					06ECFAE52E99A9F0007929EA = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 06ECFACE2E99A9EE007929EA;
+					};
+				};
+			};
+			buildConfigurationList = 06ECFACA2E99A9EE007929EA /* Build configuration list for PBXProject "GeoFavorites" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06ECFAC62E99A9EE007929EA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 06ECFAD02E99A9EE007929EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06ECFACE2E99A9EE007929EA /* GeoFavorites */,
+				06ECFADB2E99A9F0007929EA /* GeoFavoritesTests */,
+				06ECFAE52E99A9F0007929EA /* GeoFavoritesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06ECFACD2E99A9EE007929EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ECFADA2E99A9F0007929EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ECFAE42E99A9F0007929EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06ECFACB2E99A9EE007929EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ECFAD82E99A9F0007929EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ECFAE22E99A9F0007929EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06ECFADE2E99A9F0007929EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06ECFACE2E99A9EE007929EA /* GeoFavorites */;
+			targetProxy = 06ECFADD2E99A9F0007929EA /* PBXContainerItemProxy */;
+		};
+		06ECFAE82E99A9F0007929EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06ECFACE2E99A9EE007929EA /* GeoFavorites */;
+			targetProxy = 06ECFAE72E99A9F0007929EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06ECFAEE2E99A9F0007929EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HZ4MGAG87D;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06ECFAEF2E99A9F0007929EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HZ4MGAG87D;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06ECFAF12E99A9F0007929EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ4MGAG87D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoFavorites/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Arka planda konum takibi için Always iznine ihtiyaç duyuyoruz.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Yakınınızdaki konumu göstermek ve haritayı güncellemek için konumunuza ihtiyaç duyuyoruz.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bekoszn.GeoFavorites;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06ECFAF22E99A9F0007929EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ4MGAG87D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoFavorites/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Arka planda konum takibi için Always iznine ihtiyaç duyuyoruz.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Yakınınızdaki konumu göstermek ve haritayı güncellemek için konumunuza ihtiyaç duyuyoruz.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bekoszn.GeoFavorites;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06ECFAF42E99A9F0007929EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ4MGAG87D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bekoszn.GeoFavoritesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoFavorites.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoFavorites";
+			};
+			name = Debug;
+		};
+		06ECFAF52E99A9F0007929EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ4MGAG87D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bekoszn.GeoFavoritesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoFavorites.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoFavorites";
+			};
+			name = Release;
+		};
+		06ECFAF72E99A9F0007929EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ4MGAG87D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bekoszn.GeoFavoritesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoFavorites;
+			};
+			name = Debug;
+		};
+		06ECFAF82E99A9F0007929EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ4MGAG87D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bekoszn.GeoFavoritesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoFavorites;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06ECFACA2E99A9EE007929EA /* Build configuration list for PBXProject "GeoFavorites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ECFAEE2E99A9F0007929EA /* Debug */,
+				06ECFAEF2E99A9F0007929EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06ECFAF02E99A9F0007929EA /* Build configuration list for PBXNativeTarget "GeoFavorites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ECFAF12E99A9F0007929EA /* Debug */,
+				06ECFAF22E99A9F0007929EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06ECFAF32E99A9F0007929EA /* Build configuration list for PBXNativeTarget "GeoFavoritesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ECFAF42E99A9F0007929EA /* Debug */,
+				06ECFAF52E99A9F0007929EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06ECFAF62E99A9F0007929EA /* Build configuration list for PBXNativeTarget "GeoFavoritesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ECFAF72E99A9F0007929EA /* Debug */,
+				06ECFAF82E99A9F0007929EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06ECFAC72E99A9EE007929EA /* Project object */;
+}

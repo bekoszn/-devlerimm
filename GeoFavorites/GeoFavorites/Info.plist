@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Yakınınızdaki konumu göstermek ve haritayı güncellemek için konumunuza ihtiyaç duyuyoruz.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Arka planda konum takibi için Always iznine ihtiyaç duyuyoruz.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+    <string>location</string>
+    </array>
+</dict>
+</plist>
